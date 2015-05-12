@@ -1,0 +1,771 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,cyrillic-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext);
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+    
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+    
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+    
+}
+
+
+
+
+*[unselectable=on] {
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
+}
+
+
+
+body {
+	min-width: 1200px;
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+     color: #2A2A2A;
+}
+a:hover{
+   
+    color: #777;
+}
+hr{
+	height: 2px;
+	width: 88%;
+	margin: 60px auto;
+	background: #ddd;
+}
+
+div.row {
+	min-width: 1100px;
+}
+
+.row div {
+	-border: 1px solid #ddd;
+	min-height: 50px; 
+}
+
+ul{
+	list-style: none;
+}
+
+p, h1, h2, h3, h4, h5, ul, li{
+    cursor:default;
+}
+
+/*******************************************************
+********************************************************
+*******
+*******		хеадер, навигация, футер
+*******
+********************************************************
+********************************************************/
+#navbar-nav li a:hover {
+    color: #c60f43;
+}
+
+
+#header-nav{
+	margin: 35px 60px 20px;
+	border: 0;
+	background-color:#fff; 
+}
+.navbar-header{
+	width: 350px;
+}
+.header-title{
+	padding: 5px; 
+
+}
+.header-title img{
+	width: 120%;
+	margin-bottom:10px;
+}
+.header-title b {
+	font-size: 29px;
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+
+}
+
+.navbar-header .header-description{
+	color: #777;
+	font-family: 'Open Sans';
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+ul#navbar-nav li{
+
+	font-family: 'Open Sans';
+	font-size: 17px; 	
+	color: #2A2A2A;
+	letter-spacing: 0px;
+
+}
+
+
+.log-reg-ul{
+    font-size:14px;    
+}
+.log-reg-ul li a{
+    padding:3px; 
+    padding-right:20px;
+}
+.soc-sprite li {
+	display: inline-block;
+}
+.soc-sprite li a{
+	display: block;
+	width: 47px;
+	height: 47px;
+	border-radius: 50%;
+
+}
+.soc-sprite li a:hover{
+-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+.soc-sprite-vk{
+	background: url('../img/SOC.png') no-repeat -79px -18px;
+}
+.soc-sprite-fb{
+	background: url('../img/SOC.png') no-repeat -141px -19px;
+}
+.soc-sprite-twit{
+	background: url('../img/SOC.png') no-repeat -19px -19px;
+}
+.soc-sprite-youtube{
+	background: url('../img/SOC.png') no-repeat -507px -16px;
+}
+/*******************************************************
+********************************************************
+*******
+*******		блоки с кругами , статьи
+*******
+********************************************************
+********************************************************/
+
+.main-circle{
+	
+	-float: left;
+
+}
+.main-circle-link{
+	width: 354px;
+	height: 354px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.circle-pdf{
+	width: 120px;
+	height: 120px;
+}
+.main-circle-image {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.blog-image{
+	width: 304px;
+	height: 304px;
+}
+.blog-header{
+	width: 350px;
+}
+.blog-anno{
+	margin-top: 120px; 
+}
+
+p.blog-left{
+	text-align: right;
+
+
+}
+
+p.blog-right{
+	text-align: left;
+
+
+}
+
+.blog-left h3{
+	text-align: right;
+}
+
+.blog-right h3{
+	text-align: left;
+}
+
+
+.blog-right a.main-circle-link img{
+	float: right;
+}
+
+.main-circle .main-circle-img {
+	-max-width: 90%;
+
+}
+.main-circle-header{
+	text-align: center;
+	margin-top: 25px; 
+	font-family: 'Open Sans';
+	font-size: 26px; 	
+	font-weight: bold;
+	min-height: 56px;
+}
+.main-circle-header img {
+	max-width: 160px;
+	padding-right: 90px;
+}
+i.main-circle-pic{
+	display: block;
+	display: none !important;
+	width: 300px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: -53px; 
+	background: url(../img/page1_pic7.png) no-repeat center;
+}
+i.pdf-pic {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: url(../img/pdf/pdf.png) no-repeat center;
+}
+
+
+
+
+.article-p{
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.articles-pagination{
+	margin: 0 auto;
+	width: 400px;
+}
+
+.blog-post{
+	height: 450px;
+
+}
+
+.lagi-pic {
+    display: block;
+    width: 70%;
+    margin:0 auto;
+    -max-height:400px;
+}
+.pdf-btn{
+    display: block;
+    margin:0 auto;
+}
+/*******************************************************
+********************************************************
+*******
+*******		блоки о нас + почему мы 
+*******
+********************************************************
+********************************************************/
+
+p.main-about-text {
+	width: 85%;
+	min-height: 70px;
+	padding: 20px 10px 20px 20px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #262626;
+	vertical-align: baseline;
+	font-weight: 400;
+	outline: 0;
+	text-align: left;
+	  font-style: normal;
+
+}
+p.main-about-text:hover {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+ul.main-about-text{
+	padding-left: 5px;
+}
+ul.main-about-text li{
+	padding: 5px;
+	padding-left: 15px;
+	margin: 25px 0 25px;
+	border-left: 2px solid #8ABF41;
+	background: rgba(190,217,151, 0.25);
+
+
+	font-family: 'Open Sans';
+	font-size: 16px;
+
+}
+
+h1.main-h1 {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 60px;
+	margin-left: 60px; 
+	margin-bottom: 40px; 
+
+}
+
+h3.main-h3 {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 50px;
+	margin-left: 60px; 
+	margin-bottom: 40px; 
+
+}
+
+h3.article-h3{
+	font-size: 35px;
+}
+.main-about-text-hr{
+	margin: 0 auto;
+	height: 2px;
+	background: #ddd;
+	width: 70%;
+}
+
+.main-about-img{
+	display: block;
+	margin-left:20px;
+}
+
+.main-about-h4{
+	font-family: 'Open Sans';
+	font-size: 25px;
+	color: #262626;
+	margin-bottom: 20px; 
+}
+.main-about-p{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #262626;
+	padding: 5px;
+}
+
+.lagi-plity-ul li:before {
+    content:url(../img/point.png);
+    
+    width: 17px;
+}
+
+.main-about-p:hover {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.main-about-p li {
+	padding: 7px;
+}
+div.footer{
+	margin: 50px 0;
+}
+
+div.footer ul{
+	list-style: none;
+}
+
+.footer-nav li{
+    display: inline-block;
+    margin-left:20px;
+}
+/*******************************************************
+********************************************************
+*******
+*******		блок партнеры
+*******
+********************************************************
+********************************************************/
+
+div.partners {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	-padding-left: 70px;
+	-padding-right: 70px; 
+}
+
+div.partners a {
+	display: block;
+	float: left;
+	margin: 2px;
+	min-height: 130px;
+	
+}
+div.partners a img {
+	max-height: 120px;
+}
+
+
+/*******************************************************
+********************************************************
+*******
+*******		кнопка вызова модалки с формой
+*******
+********************************************************
+********************************************************/
+
+.floor-prise-btn{
+	border-radius: 0;
+	border: 2px solid #ddd;
+	background: #fff;
+	height: 90px;
+	color: #000;
+	margin: 0 auto;
+	display: block;
+
+
+}
+
+.floor-prise-btn:focus{
+	background: #fff;
+	color: #000;
+
+}
+
+.floor-prise-btn:hover{
+	background: #fff;
+	color: #000;
+}
+.floor-prise-btn:active{
+	background: #fff;
+	color: #000;
+}
+
+.dnt-btn-a{
+    display:block;
+    max-width:100px ;
+    margin:0 auto;
+}
+/*******************************************************
+********************************************************
+*******
+*******		модальное окно с формой 
+*******
+********************************************************
+********************************************************/
+
+#modal-form {
+
+}
+
+.modal-body{
+	padding: 5px; 
+}
+#modal-form .modal-form-wrap{
+	width: 60%;
+	max-width:800px;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#modal-form .modal-form-wrap .form-group{
+	float: left;
+	margin: 10px;
+
+}
+
+.modal-footer{
+
+}
+
+
+
+
+/*******************************************************
+********************************************************
+*******
+*******		форма рассчета стоимости пола
+*******
+********************************************************
+********************************************************/
+
+.btn-room-minus, .btn-room-plus{
+	display: inline-block;
+	margin: 0; 
+	width: 23px;
+	min-height: 23px !important;
+	padding:0;
+
+}
+
+
+
+.room-count-and-s{
+	display: block;
+	float: right;
+	width: 200px;
+	margin-left: 15px;
+}
+
+.room-count-and-s input{
+
+ margin-bottom: 5px; 
+}
+
+
+.input-s{
+ 	width: 75px;
+ 	display: inline;
+
+
+}
+
+
+.input-p{
+display: inline;
+width: 120px;
+
+}
+
+
+.btn-room-wrapp{
+	display: inline-block;
+	min-height:;
+}
+
+.form-group label b {
+	display: inline-block;
+	padding-left: 15px;
+	padding-bottom:15px; 
+}
+
+.form-group {
+	-border-left: 2px solid #ddd;
+	-border-bottom: 2px solid #ddd;
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 10px; 
+
+}
+
+.room-calc {
+	float:  right !important;
+	overflow: auto !important;
+	max-height:150px;
+	min-width:250px;
+}
+
+div.contact-input-wrap {
+	float: left;
+	width: 60%;
+	margin: 0 !important;
+
+}
+
+div.contact-input .control-label{
+	
+}
+
+div.contact-input-wrap div input {
+	width: 100%;
+}
+
+.modal-footer button.btn-default{
+	
+}
+
+.add-plan-file {
+	float: right !important;
+	width: 36% !important;
+
+
+}
+
+div.form-group.object-types {
+	float: right !important;
+	margin-right: 150px !important;
+}
+
+.form-contact-select{
+	width: 35%;
+float: left;
+	margin-left: 15px !important;
+}
+
+.form-contact-input-wrap{
+	width: 83%;
+	margin-left: 15px !important;
+}
+.contact-add-file{
+	margin-left: 15px !important; 
+}
+
+/*******************************************************
+********************************************************
+*******
+*******		регистрация, вход, лк
+*******
+********************************************************
+********************************************************/
+.reg-form {
+    
+}
+.reg-form input {
+    display: block;
+    width: 400px;
+    height: 32px;
+    border-radius:2px;
+}
+
+/*******************************************************
+********************************************************
+*******
+*******		галерея
+*******
+********************************************************
+********************************************************/
+
+.galery-tag-btn{
+	border-radius: 0;
+	border: 2px solid #ddd;
+	background: #fff;
+	height: 90px;
+	color: #000;
+	margin: 6px;
+
+
+}
+.galery-tag-btn a{
+	display: inline-block;
+	font-variant: inherit;
+	width: 100%;
+	height: 100%;
+	color: #000;
+	padding-top: 20px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+
+}
+a.galery-tag-btn:hover {
+
+	text-decoration: none;
+}
+
+.galery-tag-btn:focus{
+	background: #fff;
+	color: #000;
+
+}
+
+.galery-tag-btn:hover{
+	background: #fff;
+	color: #000;
+}
+.galery-tag-btn:active{
+	background: #fff;
+	color: #000;
+}
+
+
+.button-filter-wrap{
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.galery-item-pic {
+	margin-bottom: 20px !important;
+}
+
+.is-checked {
+	border: 2px solid #204d74;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+
+}
+/*******************************************************
+********************************************************
+*******
+*******		карта
+*******
+********************************************************
+********************************************************/
+#map_cpsystem, #map_parketholl, #map_crimea, #map_spb { 
+	height: 400px; 
+}
+#map_dillers {
+	height: 500px;
+}
+
+
+
+/*******************************************************
+********************************************************
+*******
+*******		анимации
+*******
+********************************************************
+********************************************************/
+
+
+
+
+.main-circle-link {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+.main-circle-link:before {
+  content: '';
+  position: absolute;
+  
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.main-circle-link:hover:before {
+	border: #e1e1e1 solid 5px;
+	border-radius: 50% !important;
+	top: -11px;
+	right: -11px;
+	bottom: -11px;
+	left: -11px;
+}
+
+
+
+
+.falshpol-img{
+    max-width: 720px;
+}
+
+.lagi-pic-two{
+    max-width:400px;
+}
